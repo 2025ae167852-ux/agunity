@@ -1,0 +1,18 @@
+{
+  "name": "agunity-blockchain",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AGUNITY smart contracts and deployment scripts",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:amoy": "hardhat run scripts/deploy.js --network amoy"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.26.3"
+  }
+}
